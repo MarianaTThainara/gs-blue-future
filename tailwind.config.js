@@ -5,7 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {'under-the-sea': "url('/src/assets/img/sea_background_test_v1.jpg')", },
+    },
   },
   plugins: [],
 }
