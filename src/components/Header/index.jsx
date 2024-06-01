@@ -26,7 +26,7 @@ function Header() {
               route.pathname == pathname
                 ? "shadow-[1px_1px_1px_1px_rgba(0,0,0,0.5),-1px_-1px_2px_2px_rgba(255,255,255,0.1)] text-blue-50"
                 : "text-blue-300 hover:bg-blue-900 hover:text-blue-50",
-              "rounded-lg px-3 py-2 font-medium"
+              "rounded-lg px-3 py-2 font-medium ease-in duration-200"
             )}
           >
             {route.name}
