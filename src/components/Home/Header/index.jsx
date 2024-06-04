@@ -5,7 +5,7 @@ function Header() {
     <section className="min-h-screen relative">
       <img src={Teste} alt="Teste" className="w-full" />
       <header className="w-full absolute top-[25%]">
-        <h1 className="text-7xl text-white font-bold underline mb-12">
+        <h1 className="text-7xl text-center text-white font-bold underline mb-12">
           Titulo da página
         </h1>
         <p className="text-center text-white text-5xl">
