@@ -1,20 +1,34 @@
 import { Outlet } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Teste from '@/assets/img/teste.jpg'
 
 
 export default function App() {
   return (
-    <div className="bg-cover bg-scroll bg-center h-screen w-screen flex items-center justify-center" style={{backgroundImage: "url(/bg-1.jpg)"}}>
-      <div className="w-9/12 h-5/6 flex flex-col text-white text-lg leading-relaxed antialiased hover:subpixel-antialiased tracking-wide bg-blue-950 bg-gradient-to-l from-cyan-950 to-blue-950 opacity-75 rounded-sm">
+    <>
+    
+      <div className="bg-amber-100 min-h-screen w-full">
+        
+        <div className="relative">
 
-        <Header />
-        <div className="grow overflow-y-auto text-center py-6" >
-        <Outlet />
+          <Header />
+
+          <img src={Teste} alt="Teste" className="w-full" />
+
         </div>
+
+        <div>
+
+          aaa
+        </div>
+
+        {/* //Main */}
+        <Outlet />
         <Footer />
 
       </div>
-    </div>
+    
+    </>
   );
 }
