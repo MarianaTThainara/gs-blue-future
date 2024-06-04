@@ -1,5 +1,15 @@
+import Main from "@/components/Study/Main";
+import Header from "@/components/Study/Header";
+import Footer from "@/components/Study/Footer";
+
 function Study() {
-  return <h1 className="text-3xl font-bold underline">Estudos</h1>;
+  return (
+    <div>
+      <Header />
+      <Main />
+      <Footer />
+    </div>
+  );
 }
 
 export default Study;

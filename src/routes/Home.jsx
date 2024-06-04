@@ -1,8 +1,14 @@
+import Main from "@/components/Home/Main";
+import Header from "@/components/Home/Header";
+import Footer from "@/components/Home/Footer";
+
 function Home() {
   return (
-    <>
-      <h1 className="text-center text-3xl font-bold underline">Home</h1>
-    </>
+    <div>
+      <Header />
+      <Main />
+      <Footer />
+    </div>
   );
 }
 
