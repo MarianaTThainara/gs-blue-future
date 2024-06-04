@@ -18,9 +18,9 @@ function NavMenu() {
   return (
     <header className="flex flex-col md:flex-row md:justify-between md:items-center gap-5 p-2 absolute z-10 w-full h-[80px]">
 
-      <img src={Logo} alt="Yara Logo" className="opacity-100 rounded-full h-40 w-40 pt-10 pl-6"/>
+      <img src={Logo} alt="Yara Logo" className="rounded-full h-60 w-60 mt-10"/>
 
-      <nav className="flex gap-5 px-5 text-md font-medium backdrop-blur-sm w-full h-full items-center justify-end">
+      <nav className="flex gap-5 px-5 text-lg font-medium backdrop-blur-sm w-full h-full items-center justify-end">
         {navigation.map((route) => (
           <Link
             key={route.name}
