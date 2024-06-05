@@ -1,4 +1,4 @@
-import Teste from "@/assets/img/teste.jpg";
+import Teste from "@/assets/img/maincover.png";
 
 function Header() {
   return (
