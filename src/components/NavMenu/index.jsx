@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import Logo from '@/assets/img/YARA_3.png'
+import Logo from '@/assets/img/YARA_2.png'
 
 const navigation = [
   { name: "Home", pathname: "/" },
@@ -16,19 +16,19 @@ function NavMenu() {
   const { pathname } = useLocation();
 
   return (
-    <header className="flex flex-col md:flex-row md:justify-between md:items-center gap-5 p-2 absolute z-10 w-full h-[80px]">
+    <header className="flex flex-col md:flex-row md:justify-between md:items-center gap-5 p-2 absolute z-10 w-full h-[80px] font-roboto tracking-normal text-5xl drop-shadow-md">
 
-      <img src={Logo} alt="Yara Logo" className="rounded-full h-60 w-60 mt-10"/>
+      <img src={Logo} alt="Yara Logo" className="h-full items-center ml-2"/>
 
-      <nav className="flex gap-5 px-5 text-lg font-medium backdrop-blur-sm w-full h-full items-center justify-end">
+      <nav className="flex gap-5 px-5 text-lg backdrop-blur-sm w-full h-full items-center justify-end">
         {navigation.map((route) => (
           <Link
             key={route.name}
             to={route.pathname}
             className={classNames(
               route.pathname == pathname
-                ? "text-blue-50"
-                : "text-blue-200 hover:bg-blue-900 hover:text-blue-50",
+                ? "text-orange-500 font-bold"
+                : "text-indigo-50  hover:text-orange-500 hover:font-bold",
               "rounded-md px-3 py-2 font-medium ease-in duration-200"
             )}
           >
