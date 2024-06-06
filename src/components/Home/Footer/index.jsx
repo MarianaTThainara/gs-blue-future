@@ -5,7 +5,7 @@ import ProfileCard3 from "@/components/ProfileCard/Wesley";
 
 function Footer() {
   return (
-    <section className="min-h-screen relative ">
+    <section className="min-h-screen relative">
       <div className="relative">
         <img src={UndergroundPicture} alt="Under The Sea" className="w-full h-auto object-cover" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-8">
