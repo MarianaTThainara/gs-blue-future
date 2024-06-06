@@ -1,7 +1,7 @@
 function Main() {
   return (
     <main className="min-h-screen">
-    <div className="content p-8 font-roboto text-justify">
+    <div className="content p-8 text-justify">
         <section id="data" className="mt-8">
           <h2 className="text-2xl font-bold">Dados Oficiais</h2>
           <p className="mt-4">Apresentação de dados da FAO e do IBAMA. Estudos detalhados sobre os estoques pesqueiros e impacto econômico.</p>

@@ -8,7 +8,7 @@ function Header() {
         <h1 className="flex justify-center items-center text-9xl text-white mb-12 font-medium antialiased tracking-wide h-5/6">Yara
         <span className="font-medium text-orange-500 antialiased">App</span> 
         </h1>
-        <p className="text-center text-indigo-50 text-4xl font-roboto font-normal tracking-wide drop">
+        <p className="text-center text-indigo-50 text-4xl font-normal tracking-wide drop">
           Tecnologia e Ancestralidade unidas pela proteção marinha.
         </p>
       </header>

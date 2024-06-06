@@ -3,7 +3,7 @@ import HeroSection from "../../HeroSection";
 
 function Header() {
   return (
-    <header className="w-full font-roboto">
+    <header className="w-full">
       <HeroSection
         backgroundImage={Teste}
         mainTitle="YaraApp: Tecnologia a Serviço da Sustentabilidade Marinha"

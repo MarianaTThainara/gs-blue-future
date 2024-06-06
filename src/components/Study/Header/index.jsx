@@ -3,7 +3,7 @@ import HeroSection from "@/components/HeroSection";
 
 function Header() {
   return (
-    <header className="w-full font-roboto">
+    <header className="w-full">
       <HeroSection
         backgroundImage={Teste}
         mainTitle="Análise da Pesca Ilegal e Suas Implicações"

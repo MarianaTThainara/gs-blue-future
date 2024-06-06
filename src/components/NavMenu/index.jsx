@@ -16,7 +16,7 @@ function NavMenu() {
   const { pathname } = useLocation();
 
   return (
-    <header className="flex flex-col-6 md:flex-row md:justify-between md:items-center gap-5 p-2 absolute z-10 w-full h-[80px] font-roboto tracking-normal text-5xl drop-shadow-md">
+    <header className="flex flex-col-6 md:flex-row md:justify-between md:items-center gap-5 p-2 absolute z-10 w-full h-[80px] tracking-normal text-5xl drop-shadow-md">
 
       <a href="http://localhost:5173/" className="h-[100%]">
         <img src={Logo} alt="Yara Logo" className="h-[100%] items-center ml-2"/>

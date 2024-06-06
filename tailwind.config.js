@@ -7,7 +7,6 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        roboto: ['Roboto', 'sans-serif'],
         finlandica: ['Finlandica', 'Roboto'],
         fjalla: ['Fjalla One', 'Roboto']
       },
