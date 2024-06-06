@@ -1,7 +1,7 @@
 
 function Main() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen font-roboto text-justify">
       <div className="content container mx-auto px-4 py-8">
         <section id="impact" className="mt-8">
           <h2 className="text-2xl font-bold">Impactos da Pesca Ilegal</h2>

@@ -1,6 +1,6 @@
 function Main() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen font-roboto text-justify">
       <div className="content p-8">
         <section id="features" className="mt-8">
           <h2 className="text-2xl font-bold">Funcionalidades</h2>

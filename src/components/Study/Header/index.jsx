@@ -1,9 +1,9 @@
-import Teste from "@/assets/img/maincover.png";
+import Teste from "@/assets/img/infosBanner2.png";
 import HeroSection from "@/components/HeroSection";
 
 function Header() {
   return (
-    <header className="w-full">
+    <header className="w-full font-roboto">
       <HeroSection
         backgroundImage={Teste}
         mainTitle="Análise da Pesca Ilegal e Suas Implicações"

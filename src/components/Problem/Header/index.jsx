@@ -1,9 +1,9 @@
-import Teste from "@/assets/img/maincover.png";
+import Teste from "@/assets/img/problemBanner2.png";
 import HeroSection from "../../HeroSection";
 
 function Header() {
   return (
-    <header className="w-full">
+    <header className="w-full font-roboto">
       <HeroSection
         backgroundImage={Teste}
         mainTitle="A Gravidade da Pesca Ilegal no Brasil"
