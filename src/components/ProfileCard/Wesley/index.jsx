@@ -42,6 +42,4 @@ function ProfileCard3() {
 
 }
 
-
-
 export default ProfileCard3;
