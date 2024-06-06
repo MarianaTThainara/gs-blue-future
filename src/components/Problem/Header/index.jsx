@@ -1,16 +1,17 @@
 import Teste from "@/assets/img/maincover.png";
+import HeroSection from "../../HeroSection";
 
 function Header() {
   return (
-    <section className="min-h-screen relative">
-      <img src={Teste} alt="Teste" className="w-full" />
-      <header className="w-full absolute top-[25%] text-center text-white text-5xl">
-        <h1 className="text-7xl font-bold underline mb-12">Titulo da página</h1>
-        <p className="text-center text-white text-5xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </p>
-      </header>
-    </section>
+    <header className="w-full">
+      <HeroSection
+        backgroundImage={Teste}
+        mainTitle="A Gravidade da Pesca Ilegal no Brasil"
+        subTitle="Um desafio para a sustentabilidade dos nossos oceanos"
+        buttonText="Saiba mais"
+        buttonTarget="impact"
+      />
+    </header>
   );
 }
 
