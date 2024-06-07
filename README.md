@@ -1,8 +1,8 @@
-# Blue Future
+# Blue Future com a Yara App
 
 Global solution FIAP
 
-## Sobre o projeto
+## Sobre o projeto Yara App
 
 A pesca ilegal ameaça gravemente os ecossistemas marinhos e a sustentabilidade pesqueira no Brasil. Apresentamos o YaraApp, uma solução inovadora que utiliza dados de satélites para monitorar em tempo real as atividades das embarcações.
 
