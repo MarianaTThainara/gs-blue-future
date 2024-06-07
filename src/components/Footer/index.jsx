@@ -3,12 +3,12 @@ import Logo from '@/assets/img/YARA.png'
 function Footer() {
 
   return (
-    <footer className="bg-white rounded-lg shadow dark:bg-[#0e100e] m-4">
-    <div className="w-full mx-auto p-4 md:py-8">
-        <div className="sm:flex sm:items-center sm:justify-between">
+    <footer className="w-full">
+ 
+        <div className="flex justify-between p-4">
             <a href="#" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-            <img src={Logo} alt="Yara Logo" className="h-8 items-center ml-2"/>
-                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Yara<span className="text-orange-500">App</span></span>
+            <img src={Logo} alt="Yara Logo" className="h-6 items-center ml-2"/>
+                <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Yara<span className="text-orange-500">App</span></span>
             </a>
             <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-white">
                 <li>
@@ -25,10 +25,15 @@ function Footer() {
                 </li>
             </ul>
         </div>
-        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-white lg:my-8" />
-        <span className="block text-sm text-white sm:text-center dark:text-white">© 2023 <a href="https://flowbite.com/" className="hover:underline">Yara<span className="text-orange-500">App™</span></a>. Todos os direitos reservados.</span>
-    </div>
-</footer>
+
+        <hr className="border-gray-700 sm:mx-auto" />
+
+        <div className="p-4">
+            <span className="block text-sm text-white sm:text-center">© 2023 <span className="hover:underline select-none">Yara<span className="text-orange-500">App™</span></span>. Todos os direitos reservados.</span>
+            
+        </div>
+   
+    </footer>
   );
 }
 

@@ -4,7 +4,7 @@ import NavMenu from "@/components/NavMenu";
 
 export default function App() {
   return (
-    <div className="bg-[#0e100e] min-h-screen w-full relative text-white">
+    <div className="bg-gradient-to-t from-[#0e100e] to-[#112627] min-h-screen w-full relative text-white">
       <NavMenu />
       {/* Paginas \/ */}
       <Outlet />
