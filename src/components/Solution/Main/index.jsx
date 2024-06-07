@@ -1,14 +1,15 @@
 function Main() {
   return (
-    <main className="min-h-screen text-justify">
+    <main className="min-h-screen">
+      
       <section
         id="features"
-        className="w-full min-h-screen flex items-center justify-center border-b border-b-gray-800"
-      >
+        className="w-full min-h-screen flex items-center justify-center border-b border-b-gray-700 text-justify">
+
         <div className="p-20 lg:p-24">
-          <div className="mb-6">
+          <div className="mb-12">
             <h2 className="text-2xl font-bold">
-              YaraApp: Tecnologia a Serviço da Sustentabilidade Marinha
+              Yara<span className="text-orange-500">App</span>: Tecnologia a Serviço da Sustentabilidade Marinha
             </h2>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
@@ -80,7 +81,7 @@ function Main() {
                   rel="noopener noreferrer"
                   className="font-medium text-orange-500 underline"
                 >
-                  Saiba mais sobre o YaraApp
+                  Saiba mais sobre o YaraApp e o funcionamento do aplicativo
                 </a>
               </p>
             </div>
@@ -88,13 +89,13 @@ function Main() {
         </div>
       </section>
 
-      <section className="bg-gradient-to-t from-[#0e100e] to-[#112627] min-h-screen flex items-center justify-center border-b border-b-gray-800">
+      <section className="bg-gradient-to-t from-[#0e100e] to-[#112627] min-h-screen flex items-center justify-center">
         <div className="w-full p-24 lg:w-1/2 lg:p-0">
           <cite className="text-5xl lg:text-6xl text-orange-500 text-center font-bold">
-            A tecnologia é nossa aliada na proteção dos oceanos e na promoção da
-            sustentabilidade.
+            "A tecnologia é nossa aliada na proteção dos oceanos e na promoção da
+            sustentabilidade."
           </cite>
-          <small className="block font-medium text-gray-300 text-end mt-12">
+          <small className="block font-medium text-base text-gray-300 text-end mt-12">
             ~Citação Inspiradora
           </small>
         </div>

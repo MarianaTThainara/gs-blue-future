@@ -33,9 +33,9 @@ function Main() {
         </h2>
       </div>
 
-      <div className="space-y-8 divide-y divide-gray-700">
+      <div className="divide-y divide-gray-700">
 
-        <section id="data" className="min-h-screen p-20 pt-0 lg:p-24">
+        <section id="data" className="p-20 pt-0 lg:p-24">
 
           <h3 className="text-xl font-semibold mb-4">
             <span className="text-orange-500">#</span> Seção 1: Dados Oficiais
@@ -62,22 +62,14 @@ function Main() {
             </p>
           </div>
 
-          <div className="my-12">
-            {/* Placeholder para gráficos */}
-            <div className="bg-gray-200 h-64 flex items-center justify-center">
-              Gráficos: Estatísticas sobre estoques pesqueiros e impacto
-              econômico
-            </div>
-          </div>
-
         </section>
 
-        <section id="case-studies" className="min-h-screen p-20 lg:p-24 border-gray-700">
+        <section id="case-studies" className="p-20 lg:p-24 border-gray-700">
 
           <h3 className="text-xl font-semibold mb-4">
             <span className="text-orange-500">#</span> Seção 2: Estudos de Caso
           </h3>
-          <p className="mb-4 text-gray-300">
+          <p className="text-gray-300 mb-12">
             A Oceana, uma organização não governamental dedicada à conservação
             dos oceanos, relatou que a pesca da Tainha no Brasil frequentemente
             excede as cotas estabelecidas, resultando em uma pressão adicional
@@ -86,16 +78,53 @@ function Main() {
             ecossistemas marinhos.
           </p>
 
-          <div className="mb-4">
-            {/* Placeholder para imagens */}
-            <div className="bg-gray-200 h-64 flex items-center justify-center">
-              Imagens: Fotos das espécies afetadas e mapas de áreas de pesca
+        </section>
+
+        <section className="p-20 lg:p-24 border-gray-700">
+
+            <h3 className="text-xl font-semibold mb-24">
+              Estoques com status conhecido
+            </h3>
+
+            <div className="space-y-14 text-center lg:text-start">
+
+              <div className="grid grid-cols-1 lg:grid-cols-4 items-center gap-4">
+                <span className="block text-[5.5rem] text-orange-500 font-bold leading-none px-4 text-center w-full">
+                  94%
+                </span>
+                <p className="text-2xl text-gray-300 col-span-3">
+                  Da situação dos estoque pesqueiros no Brasil é <span className="font-semibold text-orange-500">desconhecida</span>, incluindo os de maior importância econômica.
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-4 items-center gap-4">
+                <span className="block text-[5.5rem] text-orange-500 font-bold leading-none w-full px-4 text-center">
+                  4
+                </span>
+                <p className="text-2xl text-gray-300 col-span-3">
+                  Estoques pesqueiros explorados pela frota comercial brasileira possuem um limite de captura anual estabelecido e consistente com as avaliações de estoque, o que representa somente <span className="font-semibold text-orange-500">3% do total</span>.
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-4 items-center gap-4">
+                  <span className="block text-[5.5rem] text-orange-500 font-bold leading-none w-full px-4 text-center">
+                    118
+                  </span>
+                  <p className="text-2xl text-gray-300 col-span-3">
+                    Estoques pesqueiros foram avaliados. Desses, <span className="font-semibold text-orange-500">apenas 7 (ou 6% do total)</span> possuem avaliações quantitativas feitas em um período igual ou menor do que 5 anos. 
+                  </p>
+                </div>
+              <div>
+
             </div>
-          </div>
+
+            <a href="https://brasil.oceana.org/wp-content/uploads/sites/23/fishery_audit_brazil/estoques.html" className="block font-medium text-sm mt-4 underline text-orange-500 w-full text-end" target="_blank">Referências: Brasil Oceana</a>
+
+            </div>
 
         </section>
 
-        <section id="conference" className="min-h-screen p-20 lg:p-24 border-gray-700">
+        <section id="conference" className="p-20 lg:p-24 border-gray-700">
           <h3 className="text-xl font-semibold mb-4">
             <span className="text-orange-500">#</span> Seção 3: Conferência do Oceans 20
           </h3>
@@ -120,12 +149,6 @@ function Main() {
             </blockquote>
           </div>
 
-          <div className="my-12">
-            {/* Placeholder para vídeo */}
-            <div className="bg-gray-200 h-64 flex items-center justify-center">
-              Vídeo: Trechos das palestras mais relevantes
-            </div>
-          </div>
         </section>
 
         <section className="min-h-screen p-20 lg:p-24 border-gray-700">
@@ -159,7 +182,7 @@ function Main() {
           </p>
         </section>
 
-        <section id="conference" className="bg-gradient-to-t from-[#0e100e] to-[#112627] min-h-screen p-20 lg:p-24 border-gray-700 flex items-center justify-center flex-col">
+        <section id="conference" className="bg-gradient-to-t from-[#0e100e] to-[#112627] min-h-screen p-20 lg:p-24 flex items-center justify-center flex-col">
 
           <p className="text-3xl text-gray-300 text-center font-semibold px-4 leading-2">
             Neste contexto, torna-se imperativo buscar soluções que integrem

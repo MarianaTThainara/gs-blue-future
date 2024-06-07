@@ -9,7 +9,7 @@ function Header() {
         <span className="font-medium text-orange-500 antialiased">App</span> 
         </h1>
         <p className="text-center text-indigo-50 text-4xl font-normal tracking-wide drop-shadow-md">
-          Tecnologia e Ancestralidade unidas pela proteção marinha.
+          Tecnologia e ancestralidade unidas pela proteção marinha.
         </p>
       </header>
     </section>

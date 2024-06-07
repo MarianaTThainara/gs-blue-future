@@ -16,7 +16,7 @@ export default function SectionTime() {
       name: 'Mariana Tojal',
       rm: '553014',
       photo: MarianaPhoto,
-      about: 'Estudante de Engenharia de Software da turma 1ESOR-2023, Mariana desenvolveu o conceito do projeto YaraApp, desempenhando papel fundamental na elaboração de um Pitch chamativo e impactante, que cumpre o seu papel de informar aos possíveis clientes do App sobre as condições que viabilizaram o projeto e sua importância para a sustentabilidade dos mares. Além disso, auxiliou no processo de construção da identidade visual do projeto através da utilização de ferramentas, como o React e TailwindCSS.'
+      about: 'Estudante de Engenharia de Software da turma 1ESOR-2023, Mariana desenvolveu o conceito do projeto YaraApp, desempenhando papel fundamental na elaboração do Pitch, que cumpre o seu papel de informar aos possíveis clientes do App sobre as condições que viabilizaram o projeto e sua importância para a sustentabilidade dos mares. Além disso, auxiliou no processo de construção da identidade visual do projeto através da utilização de ferramentas, como o React e TailwindCSS.'
     },
     {
       name: 'Wesley Matos',
@@ -29,7 +29,7 @@ export default function SectionTime() {
   return (
     <section className="min-h-screen p-20">
 
-        <div>
+        <div className="mb-12">
 
           <span>Yara<span className="text-orange-500 font-bold">App</span></span>
 

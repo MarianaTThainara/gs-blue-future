@@ -49,7 +49,7 @@ function Main() {
 
       </section>
 
-      <section id="importance" className="w-full min-h-screen flex items-center justify-center border-b border-b-gray-800">
+      <section id="importance" className="w-full min-h-screen flex items-center justify-center">
 
         <div className="p-20 lg:p-24">
 
