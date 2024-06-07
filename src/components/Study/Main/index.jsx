@@ -1,18 +1,48 @@
 function Main() {
-  return (
-    <main className="min-h-screen mt-8">
-      <div className="content container mx-auto px-4 py-8">
-        <h2 className="text-2xl font-semibold mb-6">
-          Análise da Pesca Ilegal e Suas Implicações
-        </h2>
 
-        <section id="data" className="mb-8">
+  const challenge= [
+    {
+      title: 'Falta de Recursos',
+      text: 'As agências de fiscalização, como o IBAMA, frequentemente enfrentam escassez de recursos financeiros e tecnológicos para monitorar eficientemente as vastas áreas costeiras.'
+    },
+    {
+      title: 'Insuficiência Tecnológica',
+      text: 'A ausência de tecnologias avançadas e integradas impede a detecção rápida e precisa das atividades de pesca ilegal.'
+    },
+    {
+      title: 'Cooperação Internacional',
+      text: 'A cooperação entre países é essencial, mas muitas vezes insuficiente, o que dificulta o combate à pesca ilegal em águas internacionais.'
+    },
+    {
+      title: 'Rastreabilidade e Transparência',
+      text: 'A falta de sistemas robustos de rastreamento e transparência dificulta a identificação da origem dos produtos pesqueiros, permitindo que o pescado ilegal entre no mercado legal.'
+    },
+    {
+      title: 'Pressões Econômicas',
+      text: 'Pescadores legais enfrentam concorrência desleal de pescadores ilegais, o que pode levar à sobrepesca e degradação adicional dos ecossistemas marinhos.'
+    },
+  ]
+
+  return (
+    <main className="min-h-screen text-justify">
+
+      <div className="mb-12 p-20 pb-0 lg:p-24 lg:pb-0">
+        <span className="uppercase text-sm">Estudo</span>
+        <h2 className="text-2xl font-semibold text-start">
+          Análise da Pesca Ilegal e suas implicações
+        </h2>
+      </div>
+
+      <div className="space-y-8 divide-y divide-gray-700">
+
+        <section id="data" className="min-h-screen p-20 pt-0 lg:p-24">
+
           <h3 className="text-xl font-semibold mb-4">
-            Seção 1: Dados Oficiais
+            <span className="text-orange-500">#</span> Seção 1: Dados Oficiais
           </h3>
 
-          <div className="text-gray-300 text-lg">
-            <p className="mb-4">
+          <div className="text-gray-300 text-lg space-y-8">
+            <p>
               Diversos estudos e dados oficiais destacam a gravidade da pesca
               ilegal no Brasil e ao redor do mundo. De acordo com o relatório da
               FAO, cerca de 33% dos estoques de peixes estão sendo explorados em
@@ -20,7 +50,7 @@ function Main() {
               exacerbada pela pesca ilegal, que impede uma gestão eficaz dos
               recursos pesqueiros.
             </p>
-            <p className="mb-4">
+            <p>
               O Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais
               Renováveis (IBAMA) tem enfrentado dificuldades na fiscalização das
               atividades pesqueiras devido à vasta extensão da costa brasileira
@@ -32,20 +62,22 @@ function Main() {
             </p>
           </div>
 
-          <div className="mb-4">
+          <div className="my-12">
             {/* Placeholder para gráficos */}
             <div className="bg-gray-200 h-64 flex items-center justify-center">
               Gráficos: Estatísticas sobre estoques pesqueiros e impacto
               econômico
             </div>
           </div>
+
         </section>
 
-        <section id="case-studies" className="mb-8">
+        <section id="case-studies" className="min-h-screen p-20 lg:p-24 border-gray-700">
+
           <h3 className="text-xl font-semibold mb-4">
-            Seção 2: Estudos de Caso
+            <span className="text-orange-500">#</span> Seção 2: Estudos de Caso
           </h3>
-          <p className="mb-4">
+          <p className="mb-4 text-gray-300">
             A Oceana, uma organização não governamental dedicada à conservação
             dos oceanos, relatou que a pesca da Tainha no Brasil frequentemente
             excede as cotas estabelecidas, resultando em uma pressão adicional
@@ -53,21 +85,23 @@ function Main() {
             ilegal ameaça a recuperação dos estoques pesqueiros e a saúde dos
             ecossistemas marinhos.
           </p>
+
           <div className="mb-4">
             {/* Placeholder para imagens */}
             <div className="bg-gray-200 h-64 flex items-center justify-center">
               Imagens: Fotos das espécies afetadas e mapas de áreas de pesca
             </div>
           </div>
+
         </section>
 
-        <section id="conference" className="mb-8">
+        <section id="conference" className="min-h-screen p-20 lg:p-24 border-gray-700">
           <h3 className="text-xl font-semibold mb-4">
-            Seção 3: Conferência do Oceans 20
+            <span className="text-orange-500">#</span> Seção 3: Conferência do Oceans 20
           </h3>
 
-          <div className="text-gray-300 text-lg">
-            <p className="mb-4">
+          <div className="text-gray-300 text-lg space-y-4">
+            <p>
               Durante a primeira reunião do Oceans 20, parte da agenda do G20
               Social sobre a Economia Azul, foi destacado que a economia
               oceânica sustentável é essencial para garantir que as atividades
@@ -76,7 +110,7 @@ function Main() {
               engloba práticas de gestão ambiental, tecnologias inovadoras e
               colaboração entre governos, empresas e comunidades locais.
             </p>
-            <blockquote className="text-orange-500 border-l-4 border-blue-500 pl-4 mb-4">
+            <blockquote className="text-gray-400 border-l-4 border-orange-500 pl-8 italic">
               A falta de transparência e a dificuldade na rastreabilidade dos
               produtos pesqueiros aumentam os riscos para os consumidores, que
               podem ser expostos a pescados de origem ilegal e possivelmente
@@ -86,7 +120,7 @@ function Main() {
             </blockquote>
           </div>
 
-          <div className="mb-4">
+          <div className="my-12">
             {/* Placeholder para vídeo */}
             <div className="bg-gray-200 h-64 flex items-center justify-center">
               Vídeo: Trechos das palestras mais relevantes
@@ -94,45 +128,29 @@ function Main() {
           </div>
         </section>
 
-        <section className="mb-8">
-          <h3 className="text-xl font-semibold mb-4">
+        <section className="min-h-screen p-20 lg:p-24 border-gray-700">
+          <h3 className="text-xl font-semibold mb-8">
             Desafios e Limitações da Abordagem Atual
           </h3>
-          <p className="mb-4">
+          <p className="mb-12 text-gray-300">
             Apesar dos esforços significativos, a abordagem atual para lidar com
             a pesca ilegal no Brasil e no mundo enfrenta várias limitações e
             desafios:
           </p>
-          <ul className="list-disc list-inside mb-4">
-            <li>
-              Falta de Recursos: As agências de fiscalização, como o IBAMA,
-              frequentemente enfrentam escassez de recursos financeiros e
-              tecnológicos para monitorar eficientemente as vastas áreas
-              costeiras.
-            </li>
-            <li>
-              Insuficiência Tecnológica: A ausência de tecnologias avançadas e
-              integradas impede a detecção rápida e precisa das atividades de
-              pesca ilegal.
-            </li>
-            <li>
-              Cooperação Internacional: A cooperação entre países é essencial,
-              mas muitas vezes insuficiente, o que dificulta o combate à pesca
-              ilegal em águas internacionais.
-            </li>
-            <li>
-              Rastreabilidade e Transparência: A falta de sistemas robustos de
-              rastreamento e transparência dificulta a identificação da origem
-              dos produtos pesqueiros, permitindo que o pescado ilegal entre no
-              mercado legal.
-            </li>
-            <li>
-              Pressões Econômicas: Pescadores legais enfrentam concorrência
-              desleal de pescadores ilegais, o que pode levar à sobrepesca e
-              degradação adicional dos ecossistemas marinhos.
-            </li>
+          <ul className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+
+            {challenge.map((ch) => {
+
+              return <li className="group p-6 border border-gray-700 rounded text-center flex flex-col gap-4 text-gray-300 hover:bg-orange-500 hover:text-white select-none hover:border-orange-400">
+                
+                <span className="group-hover:text-white font-medium text-lg text-orange-500">{ch.title}</span>
+
+                {ch.text}
+
+              </li>
+            })}
           </ul>
-          <p>
+          <p className="text-gray-300">
             Estas falhas destacam a necessidade urgente de desenvolver e
             implementar novas estratégias que sejam mais eficazes e
             sustentáveis. A adoção de tecnologias inovadoras, o fortalecimento
@@ -141,16 +159,18 @@ function Main() {
           </p>
         </section>
 
-        <section className="mb-8">
-          <h3 className="text-xl font-semibold mb-4">Conclusão</h3>
-          <p>
+        <section id="conference" className="bg-gradient-to-t from-[#0e100e] to-[#112627] min-h-screen p-20 lg:p-24 border-gray-700 flex items-center justify-center flex-col">
+
+          <p className="text-3xl text-gray-300 text-center font-semibold px-4 leading-2">
             Neste contexto, torna-se imperativo buscar soluções que integrem
-            tecnologia avançada e colaboração internacional para enfrentar o
-            problema da pesca ilegal e promover a sustentabilidade dos recursos
+            tecnologia avançada e colaboração internacional para enfrentar <span className="text-orange-500">o problema da pesca ilegal</span> e promover a sustentabilidade dos recursos
             marinhos.
           </p>
+
         </section>
+
       </div>
+
     </main>
   );
 }
