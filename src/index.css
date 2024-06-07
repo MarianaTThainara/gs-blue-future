@@ -11,9 +11,9 @@
 }
 
 .hero-section {
-    @apply h-96 flex items-center justify-center text-center bg-cover bg-center;
+    @apply h-[400px] text-center bg-cover bg-center;
 }
   
 .hero-section .content {
-    @apply bg-black bg-opacity-50 p-8 rounded-lg;
+    @apply w-full h-full;
 }

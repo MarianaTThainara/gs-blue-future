@@ -15,12 +15,20 @@ const HeroSection = ({ backgroundImage, mainTitle, subTitle, buttonText, buttonT
         <div
             className="hero-section"
             style={{ backgroundImage: `url(${backgroundImage})` }}>
-            <div className="bg-black bg-opacity-50 p-8 rounded-lg">
-                <h1 className="text-4xl text-white font-bold">{mainTitle}</h1>
-                <p className="text-xl text-gray-300 mt-4">{subTitle}</p>
-                <button onClick={handleButtonClick} className="mt-6 inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 cursor-pointer">
-                    {buttonText}
-                </button>
+
+            <div className="h-full flex justify-center items-center bg-black bg-opacity-50 p-12">
+
+                <div className="flex flex-col items-center">
+                    <h1 className="text-4xl text-white font-bold uppercase mb-2">{mainTitle}</h1>
+                    <p className="text-xl text-gray-300">{subTitle}</p>
+
+                    <hr className="w-10 my-6 border-2 border-gray-600 rounded-full"/>
+
+                    <button onClick={handleButtonClick} className="inline-block bg-orange-500 text-white py-2 px-6 rounded hover:bg-orange-600 cursor-pointer">
+                        {buttonText}
+                    </button>
+                </div>
+
             </div>
         </div>
     );
