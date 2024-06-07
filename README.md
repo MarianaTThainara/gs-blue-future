@@ -1,6 +1,8 @@
-# Blue Future com a Yara App
+# Yara App: Solução Inovadora para a Sustentabilidade Pesqueira
 
 Global solution FIAP
+
+Desafio Inovação Azul 2024: Engajando Tecnologia para um Futuro Sustentável nos Oceanos
 
 ## Sobre o projeto Yara App
 
@@ -14,8 +16,7 @@ Nosso modelo de negócios B2B atende governos, agências ambientais e empresas p
 
 ![Assista ao vídeo pitch](video.mp4)
 
-
-## Execute o MVP do Yara App em seu computador
+## Execute landing page do Yara App em seu computador
 
 A seguir está detalhado por meio de seções as informações para executar o projeto em seu computador.
 
