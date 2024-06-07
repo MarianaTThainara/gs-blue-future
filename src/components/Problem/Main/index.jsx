@@ -74,6 +74,10 @@ function Main() {
 
       </section>
 
+      <div className="px-12 pb-4 flex items-center justify-between font-medium text-orange-500">
+        <a href="/">&larr; Página inicial</a>
+        <a href="/study">Estudos realizados &rarr;</a>
+      </div>
 
     </main>
   );

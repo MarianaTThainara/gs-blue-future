@@ -69,7 +69,7 @@ function Main() {
           <h3 className="text-xl font-semibold mb-4">
             <span className="text-orange-500">#</span> Seção 2: Estudos de Caso
           </h3>
-          <p className="text-gray-300 mb-12">
+          <p className="text-gray-300">
             A Oceana, uma organização não governamental dedicada à conservação
             dos oceanos, relatou que a pesca da Tainha no Brasil frequentemente
             excede as cotas estabelecidas, resultando em uma pressão adicional
@@ -192,6 +192,11 @@ function Main() {
 
         </section>
 
+      </div>
+
+      <div className="px-12 pb-4 flex items-center justify-between font-medium text-orange-500">
+        <a href="/problem">&larr; Problema</a>
+        <a href="/solution">Solução encontrada &rarr;</a>
       </div>
 
     </main>

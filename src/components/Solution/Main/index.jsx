@@ -1,4 +1,4 @@
-function Main() {
+export default function Main() {
   return (
     <main className="min-h-screen">
       
@@ -100,8 +100,10 @@ function Main() {
           </small>
         </div>
       </section>
+
+      <div className="px-12 pb-4 flex items-center justify-between font-medium text-orange-500">
+        <a href="/study">&larr; Estudos realizados</a>
+      </div>
     </main>
   );
 }
-
-export default Main;
