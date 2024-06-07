@@ -51,17 +51,25 @@ export default function Main() {
       
       <section
         id="features"
-        className="flex items-center justify-center border-b border-b-gray-700 text-center lg:text-start">
+        className="flex items-center justify-center border-b border-b-gray-700">
 
-        <div className="p-20 lg:p-24">
+        <div className="p-20 lg:p-24 grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
 
-          <h3 className="text-6xl font-bold">
-            Yara<span className="text-orange-500">App</span>
-          </h3>
+          <div>
+            <h3 className="text-6xl font-bold">
+              Yara<span className="text-orange-500">App</span>
+            </h3>
 
-          <p className="text-gray-300 mt-4 text-xl">
-            Aplicativo criado para enfrentar o desafio da pesca ilegal e promover a sustentabilidade dos ecossistemas marinhos no Brasil. Nosso público alvo inclui governos, agências ambientais e empresas privadas envolvidas na proteção dos recursos marinhos e na gestão sustentável da pesca. As pessoas diretamente afetadas pelo uso do YaraApp são pescadores, comunidades costeiras, autoridades reguladoras e ecologistas, todos os quais se beneficiam de um ambiente marinho mais saudável e regulado.
-          </p>
+            <p className="text-gray-300 mt-4 text-xl">
+              Aplicativo criado para enfrentar o desafio da pesca ilegal e promover a sustentabilidade dos ecossistemas marinhos no Brasil. Nosso público alvo inclui governos, agências ambientais e empresas privadas envolvidas na proteção dos recursos marinhos e na gestão sustentável da pesca. As pessoas diretamente afetadas pelo uso do YaraApp são pescadores, comunidades costeiras, autoridades reguladoras e ecologistas, todos os quais se beneficiam de um ambiente marinho mais saudável e regulado.
+            </p>
+
+          </div>
+
+          <div>
+            <iframe className="w-full aspect-video" src="https://www.youtube.com/embed/JGUVB19e13s?si=4SO8fTlikXxMkCTZ"></iframe>
+            <a href="" className="text-orange-500 block mt-4 underline font-medium">Acesse o pitch para mais informações</a>
+          </div>
 
         </div>
 
@@ -69,7 +77,7 @@ export default function Main() {
 
       <section className="flex items-center justify-center border-b border-b-gray-700">
 
-        <div className="p-20 lg:p-24 grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="p-20 lg:p-24 grid grid-cols-1 lg:grid-cols-2 gap-12">
 
           <div>
 
@@ -79,7 +87,7 @@ export default function Main() {
                 Funcionalidades
               </h3>
 
-              <p className="text-gray-300 mt-4 text-xl text-center lg:text-start">
+              <p className="text-gray-300 mt-4 text-xl">
                 O YaraApp oferece várias funcionalidades principais que tornam a gestão ambiental mais eficaz:
               </p>
 
@@ -167,7 +175,7 @@ export default function Main() {
 
           </div>
 
-          <ul className="col-span-2 grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+          <ul className="col-span-2 grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
 
             {challenge.map((ch) => {
 
