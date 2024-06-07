@@ -8,21 +8,21 @@ export default function SectionTime() {
   const time = [
     {
       name: 'Arthur Takamori',
-      rm: '********',
+      rm: '553809',
       photo: ArthurPhoto,
-      about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+      about: 'Estudante de Engenharia de Software da turma 1ESOR-2023, Arthur desenvolveu o conceito do projeto YaraApp, sendo responsável por elaborar e identificar a necessidade iminente de proteção e controle dos cardumes nos oceanos brasileiros. Essa necessidade definiu a iniciativa de construção do aplicativo, podendo auxiliar na resolução do problema de maneira inteligente e monitorada. Além disso, realizou a construção da identidade visual do projeto através da utilização de ferramentas de programação, como o React e TailwindCSS.'
     },
     {
       name: 'Mariana Tojal',
-      rm: '********',
+      rm: '553014',
       photo: MarianaPhoto,
-      about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+      about: 'Estudante de Engenharia de Software da turma 1ESOR-2023, Mariana desenvolveu o conceito do projeto YaraApp, desempenhando papel fundamental na elaboração de um Pitch chamativo e impactante, que cumpre o seu papel de informar aos possíveis clientes do App sobre as condições que viabilizaram o projeto e sua importância para a sustentabilidade dos mares. Além disso, auxiliou no processo de construção da identidade visual do projeto através da utilização de ferramentas, como o React e TailwindCSS.'
     },
     {
       name: 'Wesley Matos',
-      rm: '********',
+      rm: '553488',
       photo: WesleyPhoto,
-      about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+      about: 'Estudante de Engenharia de Software da turma 1ESOR-2023, Wesley desenvolveu o conceito do projeto YaraApp e organizou sua viabilização, sendo responsável por fundamentar a relevância deste aplicativo através de dados e indicando aos possíveis clientes sua importância e impacto no cenário através de gráficos e matérias que podem reforçar sua real importância no cenário. Além disso, auxiliou no processo de construção da identidade visual do projeto através da utilização de ferramentas, como o React e TailwindCSS.'
     },
   ]
 
