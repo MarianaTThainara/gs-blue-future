@@ -39,7 +39,7 @@ function Main() {
       </section>
 
       <section className="bg-gradient-to-t from-[#0e100e] to-[#112627] min-h-screen flex items-center justify-center border-b border-b-gray-800">
-     
+
 
         <div className="w-full p-24 lg:w-1/2 lg:p-0">
           <cite className="text-5xl lg:text-6xl text-orange-500 text-center font-bold">"Os oceanos são os pulmões do nosso planeta, e devemos protegê-los a todo custo."</cite>

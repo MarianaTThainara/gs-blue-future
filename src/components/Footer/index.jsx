@@ -2,9 +2,9 @@ import Logo from '@/assets/img/YARA.png'
 
 function Footer() {
 
-  return (
+return (
     <footer className="w-full border-t border-gray-700">
- 
+
         <div className="flex justify-between p-4">
             <a href="#" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
             <img src={Logo} alt="Yara Logo" className="h-6 items-center ml-2"/>
@@ -32,9 +32,9 @@ function Footer() {
             <span className="block text-sm text-white sm:text-center">© 2023 <span className="hover:underline select-none">Yara<span className="text-orange-500">App™</span></span>. Todos os direitos reservados.</span>
             
         </div>
-   
+
     </footer>
-  );
+);
 }
 
 export default Footer;
