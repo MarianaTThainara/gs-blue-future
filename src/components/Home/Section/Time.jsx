@@ -39,12 +39,12 @@ export default function SectionTime() {
 
         </div>
 
-        <div class="flex items-center justify-center p-10">
+        <div className="flex items-center justify-center p-10">
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 justify-center">
 
             {time.map((member) => {
-            return <ProfileCard name={member.name}
+            return <ProfileCard key={member.rm} name={member.name}
                             rm={member.rm}
                             photo={member.photo}
                             about={member.about}/>

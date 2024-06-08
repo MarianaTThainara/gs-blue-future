@@ -9,8 +9,7 @@ function Main() {
       <SectionPitch />
       <SectionTime />
 
-      <div className="px-12 pb-4 flex items-center justify-between font-medium text-orange-500">
-        <a href="/">Home</a>
+      <div className="px-12 pb-4 flex items-center justify-end font-medium text-orange-500">
         <a href="/problem">Problema identificado &rarr;</a>
       </div>
     </main>

@@ -14,7 +14,7 @@ Nosso modelo de negócios B2B atende governos, agências ambientais e empresas p
 
 ### Vídeo Pitch
 
-![Assista ao vídeo pitch](video.mp4)
+![Assista ao vídeo pitch](https://youtu.be/_Li2epAqVTY?feature=shared)
 
 ## Execute landing page do Yara App em seu computador
 

@@ -67,8 +67,9 @@ export default function Main() {
           </div>
 
           <div>
-            <iframe className="w-full aspect-video" src="https://www.youtube.com/embed/JGUVB19e13s?si=4SO8fTlikXxMkCTZ"></iframe>
-            <a href="" className="text-orange-500 block mt-4 underline font-medium">Acesse o pitch para mais informações</a>
+            <iframe className="w-full aspect-video" src="https://www.youtube.com/embed/_Li2epAqVTY?si=1iIWTrWPsvqWvHm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <a href="https://www.youtube.com/embed/_Li2epAqVTY?si=1iIWTrWPsvqWvHm0" className="font-medium underline text-orange-500 block mt-4" target="_blank">Pitch YaraApp</a>
           </div>
 
         </div>
@@ -130,7 +131,7 @@ export default function Main() {
             <div className="h-full flex items-center justify-center">
 
               <button type="button" onClick={handlePreviousImage} className="rounded-full p-2 hover:bg-orange-500">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
                 </svg>
 
@@ -146,7 +147,7 @@ export default function Main() {
               })}
 
               <button type="button" onClick={handleNextImage} className="rounded-full p-2 hover:bg-orange-500">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6">
                   <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                 </svg>
               </button>
@@ -212,13 +213,12 @@ export default function Main() {
       </section>
 
      <section className="bg-gradient-to-t from-[#0e100e] to-[#112627] min-h-screen flex items-center justify-center">
-        <div className="w-full p-24 lg:w-1/2 lg:p-0">
-          <cite className="text-5xl lg:text-6xl text-orange-500 text-center font-bold">
-            "A tecnologia é nossa aliada na proteção dos oceanos e na promoção da
-            sustentabilidade."
+        <div className="w-full p-24 lg:w-4/5 lg:p-0">
+          <cite className="text-3xl lg:text-4xl text-orange-500 text-justify font-bold">
+            "A tecnologia pode ser um grande aliado na luta pela preservação dos oceanos. Mas é importante usá-la de forma responsável e ética. Precisamos garantir que as novas tecnologias sejam usadas para o bem dos oceanos e não para causar mais danos. Também precisamos garantir que os benefícios dessas tecnologias sejam compartilhados por todos, e não apenas por alguns."
           </cite>
-          <small className="block font-medium text-base text-gray-300 text-end mt-12">
-            ~Citação Inspiradora
+          <small className="block font-medium text-lg text-gray-300 text-end mt-12">
+            ~Gretchen Pickus, Diretora do Programa Global de Oceanos do Pew Charitable Trusts
           </small>
         </div>
       </section>
